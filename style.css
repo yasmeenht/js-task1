@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #FFE4E1, #FFF4E6);
+    
+}
+
+.content{
+    background-color: #FFF9F2;
+    border: 2px solid black;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
