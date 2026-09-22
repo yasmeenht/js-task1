@@ -23,10 +23,10 @@ if(age<16){
     
 //Part 3
 let order = prompt("Order one of the following\
-    \n Burger | Shawarma | Zinger");
+    \n Burger | Shawarma | Zinger | Pizza | Pasta");
 let valid = false;
 
-if(order == "Burger"|| order=="Shawarma" || order == "Zinger"){
+if(order == "Burger"|| order=="Shawarma" || order == "Zinger" || order== "Pizza" || order == "Pasta"){
     alert("Order is being prepared");
     valid = true;
 }
@@ -68,5 +68,4 @@ console.log("Status: ", status);
 `);
 
 }
-
 
